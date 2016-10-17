@@ -2,8 +2,15 @@ require 'resolv'
 #require 'nokogiri'
 require 'net/smtp'
 class EmailController < ApplicationController
+include AES
 
-soap_service namespace: "check_email"
+
+#soap_service namespace: "check_email", wsse_username: "user", wsse_password: "pass"
+soap_service namespace: "check_email", wsse_auth_callback: ->(username, password) {
+  if decryptr(username) == "wsdl123" && decryptr(password) == "email_321"
+    return true
+  end
+}
 
 # Declaration of Soap Action
 soap_action "verifica_email", :args => {:emails => :string}, :return => :json
