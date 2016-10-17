@@ -1,9 +1,9 @@
 require 'resolv'
-require 'nokogiri'
+#require 'nokogiri'
 require 'net/smtp'
 class EmailController < ApplicationController
 
-soap_service
+soap_service namespace: "check_email"
 
 # Declaration of Soap Action
 soap_action "verifica_email", :args => {:emails => :string}, :return => :json
@@ -17,6 +17,7 @@ def verifica_email
   respuesta = Array.new
   respuesta1 = Array.new
   valor = params[:emails]
+
 #  respuesta = ""
   if !valor.nil?
     if valor != ""
@@ -51,7 +52,7 @@ def verifica_email
        rescue Exception => e  #catch todos los errores
       end
        ## FIN NET
-       if con_ok == 1
+       if con_ok > 0
          break
        end
       end
@@ -60,6 +61,7 @@ def verifica_email
       else
         respuesta.push(email: email.to_s,estado: 0)
       end
+      respuesta.push(email: email.to_s,estado: 1)
 
      else
       respuesta.push(email: email.to_s,estado: 0)
@@ -70,8 +72,8 @@ def verifica_email
   end ## end ! vacio
 
   end ## end dif nil
-  respuesta1.push(resultado: respuesta)
-  render :soap => respuesta1.to_json
+  #respuesta1.push(resultado: respuesta)
+  render :soap => respuesta.to_json
 end
 
 end
