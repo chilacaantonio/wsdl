@@ -61,7 +61,7 @@ def verifica_email
       else
         respuesta.push(email: email.to_s,estado: 0)
       end
-      respuesta.push(email: email.to_s,estado: 1)
+    #  respuesta.push(email: email.to_s,estado: 1)
 
      else
       respuesta.push(email: email.to_s,estado: 0)
