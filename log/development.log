@@ -5683,3 +5683,477 @@ DEPRECATION WARNING: env is deprecated and will be removed from Rails 5.1 (calle
 Completed 200 OK in 290ms (Views: 22.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 192.168.0.19 at 2016-10-17 18:35:41 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+Processing by EmailController#_generate_wsdl as HTML
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1/gems/wash_out-0.10.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1/gems/wash_out-0.10.0/app/views/wash_out/rpc/wsdl.builder (9.3ms)
+Completed 200 OK in 23ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:36:10 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by EmailController#verifica_email as HTML
+  Parameters: {"defaults"=>{"controller"=>"email", "action"=>"_action"}}
+DEPRECATION WARNING: env is deprecated and will be removed from Rails 5.1 (called from _authenticate_wsse at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1/gems/wash_out-0.10.0/lib/wash_out/dispatcher.rb:21)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1/gems/wash_out-0.10.0/app/views/wash_out/rpc/error.builder
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1/gems/wash_out-0.10.0/app/views/wash_out/rpc/error.builder (0.8ms)
+Completed 500 Internal Server Error in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:37:05 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.7ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:37:07 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.5ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:37:09 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.7ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:37:28 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.3ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:37:29 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.5ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:37:31 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.5ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:37:31 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.5ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:37:32 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.9ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:37:33 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.0ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:39:49 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.6ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.7ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:40:12 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.2ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:40:13 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.9ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:40:13 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.4ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:40:14 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.8ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:40:46 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.9ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:40:47 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.6ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:40:48 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.1ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:41:07 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.3ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:41:08 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.8ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:41:09 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.9ms)
+Started POST "/email/action" for 192.168.0.19 at 2016-10-17 18:41:09 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+NameError (undefined local variable or method `string' for EmailController:Class
+Did you mean?  String):
+  
+app/controllers/email_controller.rb:16:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.0ms)
+Started GET "/" for 192.168.0.19 at 2016-10-17 18:58:35 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+  
+RuntimeError (The following keys are not allows: [:basic_auth]
+ Did you intend for one of the following? [:parser, :namespace, :wsdl_style, :snakecase_input, :camelize_wsdl, :catch_xml_errors, :wsse_username, :wsse_password, :wsse_auth_callback, :soap_action_routing]):
+  
+app/controllers/email_controller.rb:9:in `<class:EmailController>'
+app/controllers/email_controller.rb:4:in `<top (required)>'
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.9ms)
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.6ms)
+Started GET "/" for 192.168.0.19 at 2016-10-17 18:58:44 -0500
+Cannot render console from 192.168.0.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: around_filter is deprecated and will be removed in Rails 5.1. Use around_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:191)
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from block (2 levels) in <module:ClassMethods> at /Users/antoniochilaca/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:215)
+Processing by EmailController#_generate_wsdl as HTML
+  Rendering /Users/antoniochilaca/.rvm/gems/ruby-2.3.1/gems/wash_out-0.10.0/app/views/wash_out/rpc/wsdl.builder
+  Rendered /Users/antoniochilaca/.rvm/gems/ruby-2.3.1/gems/wash_out-0.10.0/app/views/wash_out/rpc/wsdl.builder (9.2ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+

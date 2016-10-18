@@ -7,7 +7,7 @@ include AES
 
 #soap_service namespace: "check_email", wsse_username: "user", wsse_password: "pass"
 soap_service namespace: "check_email", wsse_auth_callback: ->(username, password) {
-  if decryptr(username) == "wsdl123" && decryptr(password) == "email_321"
+  if decryptr(username) == ENV["user"] && decryptr(password) == ENV["pass"]
     return true
   end
 }
